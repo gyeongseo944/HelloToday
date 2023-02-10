@@ -40,7 +40,7 @@ const fadeOut = keyframes`
 
 const LoadingComponent = styled.div`
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: absolute;
   background: #ffffff;
   z-index: 999;
