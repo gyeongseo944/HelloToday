@@ -10,8 +10,15 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@notionhq/client": "^2.2.3",
+    "babel-plugin-styled-components": "^2.0.7",
+    "dotenv": "^16.0.3",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-datepicker": "^4.10.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "recoil": "^0.7.6",
+    "styled-components": "^5.3.6"
   }
 }
