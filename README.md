@@ -1,38 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello Today
 
-## Getting Started
+<p align="center">
+  <br>
+    Notion 오픈 API를 이용한 Todo App
+  <br>
+</p>
 
-First, run the development server:
+목차
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 프로젝트 소개
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="justify">
+  notion의 오픈 API를 사용하여 DB 사용 없이 TODO APP 구현 &
+  Next.js의 SSR 방식을 이용하여 구현
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- next.js의 동작 원리 파악
+- 오픈 API 사용 연습
+</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p align="center">
+  <img src='./public/img/todoApp.gif'>
+</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 기술 스택
 
-## Learn More
+| JavaScript | NextJS  |  React   |  NotionAPI   |
+| :--------: | :-----: | :------: | :----------: |
+|   ![js]    | ![next] | ![react] | ![notionapi] |
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 구현 기능
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Next JS를 활용한 프로젝트 빌드
 
-## Deploy on Vercel
+### Notion 오픈 API를 이용하여 CRUD가 가능한 TODO LIST
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### StyledComponent 를 이용한 UI 디자인
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+
+## 배운 점 & 아쉬운 점
+
+<p align="justify">
+
+- next js 사용 : react를 공부했으니 가벼운 마음으로 시작했는데 생 독학이라 돌아돌아 고생한 부분이 없지 않아 있는듯 하다 :(
+  사실 react를 제대로 공부했다면 하지 않았을 고생일 수 있어서 얕고 넓게만 공부하려는 마음 좀 버리고
+  깊게 완전히 이해한 후에 욕심을 내자 라고 생각하게 되었다...그래도 next js라는 프레임워크를 사용해볼 수 있어 좋았다
+- notion API : notion API는 생각보다 간단하고 사용만 잘 하면 정말 활용 가능 범위가 넓은 좋은 API임을 실감했다. response가
+  간략하게 넘어오진 않아 그를 처리하는데 작은 지연시간이 발생되는 편은 아쉽지만 사용하기에도 간단하고 편해서 좋은 경험이 되었다.
+
+</p>
+
+<br>
+
+<!-- Stack Icon Refernces -->
+
+[js]: /public/img/javascript.svg
+[next]: /public/img/nextjs.svg
+[react]: /public/img/react.svg
+[notionapi]: /public/img/notion.svg
