@@ -17,6 +17,8 @@ export default function Home() {
   );
 }
 
+// branch test :)
+
 // 빌드 타임에 호출
 // export async function getStaticProps() {
 //   const options = {
